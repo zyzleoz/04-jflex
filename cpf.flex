@@ -4,11 +4,11 @@
 %standalone // Execução independente do analisador sintático.
 
 
-/* ---------- MACROS ---------- */
+/*MACROS*/
 DIGITO        = [0-9]
 
 
-/* ---------- REGRAS ---------- */
+/*REGRAS*/
 %%
 
 {DIGITO}{3}"."{DIGITO}{3}"."{DIGITO}{3}"-"{DIGITO}{2} {
